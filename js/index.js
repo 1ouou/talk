@@ -37,7 +37,7 @@
 		//清除sessionStorage中的token值
 		sessionStorage.removeItem("token");
 		//跳转到登陆界面
-		window.location.replace("login.html");
+		window.location.replace("./login.html");
 	};
 
 	//监听输入内容

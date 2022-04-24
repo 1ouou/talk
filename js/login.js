@@ -21,6 +21,6 @@
 		});
 		//账户密码则跳转到相应地网页
 		// window.location.replace("/");
-		res && window.location.replace("index.html");
+		res && window.location.replace("./index.html");
 	});
 })();

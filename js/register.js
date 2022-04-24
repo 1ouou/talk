@@ -54,7 +54,7 @@
 				method: "POST",
 				params: { loginId, nickname, loginPwd },
 			});
-			res && window.location.replace("/");
+			res && window.location.replace("./login.html");
 
 			// const response = await fetch("https://study.duyiedu.com/api/user/reg", {
 			// 	method: "POST",
